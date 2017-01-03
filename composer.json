@@ -1,0 +1,23 @@
+{
+    "name": "stevens/bargain-system",
+    "type": "library",
+    "license": "MIT",
+    "description": "This is the complete bargain system",
+    "authors": [
+        {
+            "name": "Steven",
+            "email": "stevensoh31@gmail.com"
+        }
+    ],
+    "require": {
+        "stevens/payment": "dev-master",
+        "stevens/schedule": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stevens\\": "/src",
+            "Stevens\\Payment\\" : "/src",
+            "Stevens\\Schedule\\" : "/src"
+        }
+    }
+}
