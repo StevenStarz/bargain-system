@@ -10,14 +10,12 @@
         }
     ],
     "require": {
-        "stevens/payment": "dev-master",
-        "stevens/schedule": "dev-master"
+        "stevens/payment": "^1.0",
+        "stevens/schedule": "^1.0"
     },
     "autoload": {
         "psr-4": {
-            "Stevens\\": "/src",
-            "Stevens\\Payment\\" : "/src",
-            "Stevens\\Schedule\\" : "/src"
+            "Stevens\\": "/src"
         }
     }
 }
